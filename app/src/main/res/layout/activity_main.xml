@@ -57,5 +57,34 @@
         android:textColor="@color/darkGrey"
         android:textSize="25sp" />
 
+    <CheckBox
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_info"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="40sp"
+        android:backgroundTint="@color/darkGrey"
+        android:gravity="center_horizontal"
+        android:text="@string/check_box"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <Switch
+        android:id="@+id/no_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_info"
+        android:layout_marginStart="200sp"
+        android:layout_marginTop="40sp" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check_box"
+        android:layout_marginHorizontal="150sp"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/darkGrey"
+        android:gravity="center" />
 
 </RelativeLayout>
