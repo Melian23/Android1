@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/akronim</item>
+        <item>@font/annie_use_your_telescope</item>
+        <item>@font/bangers</item>
+        <item>@font/lobster</item>
+        <item>@font/lobster_two</item>
+        <item>@font/mystery_quest</item>
+        <item>@font/pacifico</item>
+    </array>
+</resources>
