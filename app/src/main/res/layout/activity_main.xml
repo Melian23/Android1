@@ -45,5 +45,17 @@
         android:fontFamily="@font/pacifico"
         android:text="@string/main_btn" />
 
+    <TextView
+        android:id="@+id/result_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_btn"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/alegreya_sans_medium"
+        android:gravity="center_horizontal"
+        android:includeFontPadding="true"
+        android:textColor="@color/darkGrey"
+        android:textSize="25sp" />
+
 
 </RelativeLayout>
