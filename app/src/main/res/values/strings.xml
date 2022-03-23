@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">My First Application</string>
+    <string name="app_name">Погода</string>
+    <string name="logo">Погода в вашем городе</string>
+    <string name="hint_field">Введите название города</string>
+    <string name="main_btn">Узнать погоду</string>
+    <string name="no_input">Введите название города</string>
+    <string name="check_box">Отметить</string>
 </resources>
