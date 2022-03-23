@@ -1,19 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical"
     tools:context=".MainActivityTask2">
 
-    <TextView
+    <EditText
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="50sp"
+        android:backgroundTint="@color/purple_700"
+        android:gravity="center_horizontal"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/lightGrey" />
+
+    <EditText
+        android:id="@+id/number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginHorizontal="170sp"
+        android:layout_marginTop="30sp"
+        android:backgroundTint="@color/purple_700"
+        android:gravity="center_horizontal"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/lightGrey" />
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="30sp"
+        android:backgroundTint="@color/purple_700"
+        android:gravity="center_horizontal"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textColorHint="@color/lightGrey" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="30sp"
+        android:backgroundTint="@color/purple_700"
+        android:gravity="center_horizontal"
+        android:hint="@string/textEmailAddress"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/lightGrey" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="30sp"
+        android:backgroundTint="@color/purple_700"
+        android:gravity="center_horizontal"
+        android:hint="@string/textPassword"
+        android:inputType="numberPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/lightGrey" />
+
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130sp"
+        android:layout_marginTop="70sp"
+        android:background="@color/lightGrey"
+        android:text="@string/main_btn" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
